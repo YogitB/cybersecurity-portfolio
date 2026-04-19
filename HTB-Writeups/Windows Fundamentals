@@ -1,0 +1,29 @@
+# Windows Fundamentals — Hack The Box Module
+
+## 🧩 Difficulty
+Beginner
+
+## 🎯 Skills Practiced
+- Windows navigation
+- File system structure
+- User accounts & permissions
+- Basic command‑line usage in Powershell and CMD
+
+## 🛠️ Tools Used
+- Command Prompt
+- PowerShell
+
+## 🔝 Why This Matters
+Understanding Windows basics is essential because:
+- Most real‑world systems run Windows
+- Many CTF and HTB machines use Windows
+- Privilege escalation often depends on knowing how Windows organizes users, files, and services
+
+---
+
+## 🧠 What I Learned
+- How to navigate Windows from the command line
+- How to identify important system directories
+- How to read event logs for suspicious activity
+- How Windows handles users, permissions, and processes
+
