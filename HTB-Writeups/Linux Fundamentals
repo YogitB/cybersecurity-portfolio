@@ -1,0 +1,48 @@
+Linux Fundamentals — Hack The Box
+Astructured collection of notes, commands, and concepts I learned while completing the Linux Fundamentals track on Hack The Box. This repository demonstrates my understanding of Linux internals, command‑line navigation, permissions, processes, and basic system administration — all essential skills for cybersecurity and penetration testing.
+Overview
+
+The Linux Fundamentals modules strengthened my ability to:
+
+  Navigate and interact with Linux systems using the command line
+
+  Understand the Linux filesystem hierarchy
+
+  Manage users, groups, and permissions
+
+  Work with processes and services
+
+  Use essential tools for cybersecurity workflows
+
+  Apply Bash commands to analyze, manipulate, and control system behavior
+Linux Filesystem: 
+/etc — configuration files
+
+/var — logs and variable data
+
+/home — user directories
+
+/bin, /sbin, /usr/bin — essential binaries
+Key commands:
+pwd
+ls -la
+cd /path
+cat
+find / -name filename
+
+File Permissions:
+chmod 755 script.sh
+chown user:group file.txt
+umask 022
+useradd, userdel
+passwd
+sudo -l
+groups
+id
+Networking:
+ip a
+ip r
+ping
+netstat -tulnp
+curl / wget
+
