@@ -29,7 +29,10 @@ ls -la
 cd /path
 cat
 find / -name filename
-
+Dockers:
+Open source platform
+Layered filesystem and resource isolation features
+Everything resets
 File Permissions:
 chmod 755 script.sh
 chown user:group file.txt
@@ -45,4 +48,7 @@ ip r
 ping
 netstat -tulnp
 curl / wget
+DAC Models
+MAC Models
+RBAC Models
 
