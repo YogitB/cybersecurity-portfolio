@@ -1,1 +1,9 @@
-
+Enumeration is a crictical part of cybersecurity. It is finding all of the routes to attack a target.
+Functions and/or resources that allow us to interact with the target and/or provide additional information.
+Information that provides us with even more important information to access our target.
+Manual enumeration is a critical component.
+Network Mapper (Nmap) is an open-source network analysis and security auditing tool written in C, C++, Python, and Lua.
+Nmap scans networks and highlights key information regarding the target.
+Nmap offers scans such as host discovery, port scanning, and os detection.
+Nmap syntax is similar as I have done but with nmap in front like this  hellopandagas@htb[/htb]$ nmap <scan types> <options> <target>.
+nmap --help displays scanning techniques
