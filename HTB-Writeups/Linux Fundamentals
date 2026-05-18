@@ -51,4 +51,5 @@ curl / wget
 DAC Models
 MAC Models
 RBAC Models
-
+Overview:
+I believe that this file acts as a resource and a documentation of my learning and understanding of the Linux Fundamentals on HTB. In this moudle I practiced command line operations, security concepts, and file permisions that are basically penetration testing and system hardening which will be prominent with AI.
