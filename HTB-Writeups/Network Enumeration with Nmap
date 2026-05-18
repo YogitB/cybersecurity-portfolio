@@ -7,3 +7,7 @@ Nmap scans networks and highlights key information regarding the target.
 Nmap offers scans such as host discovery, port scanning, and os detection.
 Nmap syntax is similar as I have done but with nmap in front like this  hellopandagas@htb[/htb]$ nmap <scan types> <options> <target>.
 nmap --help displays scanning techniques
+Scanning Options	Description
+  10.129.2.0/24	Target network range.
+  -sn	Disables port scanning.
+  -oA tnet	Stores the results in all formats starting with the name 'tnet'.
