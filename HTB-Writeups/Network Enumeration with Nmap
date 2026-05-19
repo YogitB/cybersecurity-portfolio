@@ -11,3 +11,16 @@ Scanning Options	Description
   10.129.2.0/24	Target network range.
   -sn	Disables port scanning.
   -oA tnet	Stores the results in all formats starting with the name 'tnet'.
+6 different states for a scanned port:
+  open-connection to the scanned port has been established
+  closed-tcp protocol indicates that the packet contains an RST flag.
+  filtered-Nmap cant identify if the scanned port is open or closed
+  unfiltered- occurs during TCP-ACK scan and means port is accesbiel but cant tell if it is open or closed.
+  open|filtered- This indicates that a firewall or packet filter may protect the port.
+  closed|filtered-his state only occurs in the IP ID idle scans and indicates that it was impossible to determine if the scanned port is closed or filtered by a firewall.
+--top-ports=10	Scans the specified top ports that have been defined as most frequent.
+10.129.2.28	Scans the specified target.
+-p 21	Scans only the specified port.
+--packet-trace	Shows all packets sent and received.
+-n	Disables DNS resolution.
+--disable-arp-ping	Disables ARP ping.
